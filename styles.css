@@ -1,0 +1,60 @@
+.h1{
+    background-color: #f67f97;
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: #eba3c2;
+}
+.navbar{
+    background-color: #b279c5;
+}
+.bodytext{
+    text-align: center; 
+}
+.theheader{
+    box-shadow: 2px 2px 2px 2px #ce83a3;
+}
+.lead{
+    background-color: #f4b2ce;
+}
+.thecarousel img{
+    width: 500px;
+    padding: 10px;
+}
+.container{
+    max-width: 1000px;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: 
+    'car car  par'
+    'car car  par';
+    box-shadow: 3px 3px 3px 3px #ce83a3;
+}
+.carousel{
+grid-area: car;
+padding: 20px;
+}
+.bodyparagraph{
+    color: rgb(102, 20, 48);
+    grid-area: par;
+    padding: 20px;
+    text-shadow: 1px 2px #e196b5;
+}
+.card{
+    margin: 5px;
+}
+.carbody{
+    margin-bottom: 20px;
+}
+.mb-3{
+    padding: 10px;
+}
+.map{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn{
+    margin-left: 10px;
+    background-color: #e196b5;
+}
